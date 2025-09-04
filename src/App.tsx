@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import PageContainer from "./containers/PageContainer";
 import "csh-material-bootstrap/dist/csh-material-bootstrap.css";
 import NotFound from "./pages/NotFound";
+import './App.css'
 
 type Props = {
   rerouteHomeOn404?: boolean;

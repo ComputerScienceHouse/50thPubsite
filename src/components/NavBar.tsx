@@ -23,7 +23,7 @@ const NavBar: React.FunctionComponent = () => {
       <Navbar color="primary" dark expand="lg">
         <Container>
           <NavLink to="/" className={"navbar-brand"}>
-            CSH React Boilerplate
+            50th anniversary
           </NavLink>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
@@ -31,6 +31,11 @@ const NavBar: React.FunctionComponent = () => {
               <NavItem>
                 <NavLink to="/" className="nav-link">
                   Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/photos" className="nav-link">
+                  Photos
                 </NavLink>
               </NavItem>
               {
