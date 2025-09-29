@@ -41,29 +41,12 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className="display-3">Yippee it works</h1>
+      <h1 className="display-3">Hello World!</h1>
       <p className="lead">
         Check out <code>src/pages/Home.tsx</code> to see how you can get
         started.
       </p>
       {data !== null && <p>Your data was: {data}</p>}
-
-      <div className="container col-xxl-8 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5 underglow">
-          <div className="col-10 col-sm-8 col-lg-6">
-            <img src={"./public/CSH-nobg.png"} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
-          </div>
-          <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">Welcome to the 50th Webpage!</h1>
-            <p className="lead">CSH is turning 50! We will be celebrating over the course of three days, April 17th to April 19th 2026.</p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" className="btn btn-gold">Primary</button>
-              <button type="button" className="btn btn-silver">Primary</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    
     </div>
   );
 };

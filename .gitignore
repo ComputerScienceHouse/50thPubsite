@@ -1,27 +1,34 @@
-.env
-*.tsbuildinfo
+.idea
+gradlew
+gradlew.bat
+DEdDASS.iml
+package-lock.json
 
-# Logs
-logs
-*.log
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.gradle/
+.settings/
+gradle/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
+# Project Specific
+build
 node_modules
 dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.env.local
+.vscode
+.env
+/secrets
